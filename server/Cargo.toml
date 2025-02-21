@@ -1,0 +1,14 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = {workspace = true}
+libcm = {workspace = true}
+serde = {workspace = true}
+dotenv = {workspace = true}
+envy = {workspace = true}
+anyhow = {workspace = true}
+thiserror = {workspace = true}
+

@@ -1,0 +1,13 @@
+[package]
+name = "clients"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libcm = {workspace = true}
+reqwest = {workspace = true}
+tokio = {workspace = true}
+clap = {workspace = true}
+
+[[bin]]
+name = "jarvis"

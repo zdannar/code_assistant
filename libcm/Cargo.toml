@@ -1,0 +1,10 @@
+[package]
+name = "libcm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ollama-rs = {workspace = true }
+serde = {workspace = true}
+thiserror = {workspace = true}
+
