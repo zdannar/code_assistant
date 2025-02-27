@@ -26,7 +26,7 @@ cargo install jarvis
 #### Client usage statement:
 
 ```
-Usage: jarvis <COMMAND>
+Usage: stdin | jarvis <COMMAND>
 
 Commands:
   ut    Unit test
