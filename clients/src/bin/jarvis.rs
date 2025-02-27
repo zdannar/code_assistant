@@ -40,3 +40,11 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     Ok(())
 }
+
+fn read_stdin() -> String {
+    let mut input = Vec::new();
+    let stdin = std::io::stdin();
+    let mut handle = stdin.lock();
+    handle.read_to_end(&mut input).unwrap();
+    String::from_utf8(input).unwrap()
+}
