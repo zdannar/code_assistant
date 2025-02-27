@@ -29,7 +29,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     };
 
     let resp = reqwest::Client::new()
-        .post("http://127.0.0.1:8080")
+        .post("http://127.0.0.1:8888")
         .json(&model_request_type)
         .send()
         .await?
